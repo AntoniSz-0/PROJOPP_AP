@@ -1,6 +1,11 @@
 [package]
-name = "PROJOPP_AP_e1"
+name = "main"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+crossterm = "0.25"
+rand = "0.9.0-beta.1"
+lazy_static = "1.4"
+log = "0.4.27"
+env_logger = "0.10"
